@@ -1,0 +1,32 @@
+.header-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px grey;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+
+  color: gray;
+}
+
+.icon-conatiner {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+}
